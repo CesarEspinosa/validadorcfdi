@@ -4,8 +4,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.parseXML = parseXML;
-var _node1LibxmljsmtMyh = _interopRequireDefault(require("node1-libxmljsmt-myh"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+var _libxmljs = _interopRequireDefault(require("libxmljs"));
+function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
 /**
  * Parses an XML string to a libxml object
  *
@@ -17,7 +17,7 @@ function parseXML() {
   if (!facturaXML) return false;
   var factura;
   try {
-    factura = _node1LibxmljsmtMyh["default"].parseXml(facturaXML);
+    factura = _libxmljs["default"].parseXml(facturaXML);
   } catch (e) {
     return false;
   }

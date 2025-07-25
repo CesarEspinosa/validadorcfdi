@@ -6,19 +6,19 @@
 	<!--
 		En esta sección se define la inclusión de las plantillas de utilerías para colapsar espacios
 	-->
-	<xsl:include href="dist/xslt/cfd/2/cadenaoriginal_2_0/utilerias.xslt"/>
+	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/2/cadenaoriginal_2_0/utilerias.xslt"/>
 	<!--
 		En esta sección se define la inclusión de las demás plantillas de transformación para
 		la generación de las cadenas originales de los complementos fiscales
 	-->
-	<xsl:include href="dist/xslt/cfd/ecc/ecc.xslt"/>
-	<xsl:include href="dist/xslt/cfd/donat/donat.xslt"/>
-	<xsl:include href="dist/xslt/cfd/divisas/divisas.xslt"/>
-	<xsl:include href="dist/xslt/cfd/ecb/ecb.xslt"/>
-	<xsl:include href="dist/xslt/cfd/detallista/detallista.xslt"/>
-	<xsl:include href="dist/xslt/cfd/implocal/implocal.xslt"/>
-	<xsl:include href="dist/xslt/cfd/terceros/terceros.xslt"/>
-	<xsl:include href="dist/xslt/cfd/iedu/iedu.xslt"/>
+	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/ecc/ecc.xslt"/>
+	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/donat/donat.xslt"/>
+	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/divisas/divisas.xslt"/>
+	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/ecb/ecb.xslt"/>
+	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/detallista/detallista.xslt"/>
+	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/implocal/implocal.xslt"/>
+	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/terceros/terceros.xslt"/>
+	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/iedu/iedu.xslt"/>
 	<!-- Aquí iniciamos el procesamiento de la cadena original con su | inicial y el terminador || -->
 	<xsl:template match="/">|<xsl:apply-templates select="/cfdi:Comprobante"/>||</xsl:template>
 	<!--  Aquí iniciamos el procesamiento de los datos incluidos en el comprobante -->

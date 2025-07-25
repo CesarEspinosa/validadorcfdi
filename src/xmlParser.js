@@ -1,4 +1,4 @@
-import libxmljs from 'node1-libxmljsmt-myh'
+import libxmljs from 'libxmljs'
 
 /**
  * Parses an XML string to a libxml object
