@@ -6,42 +6,42 @@
   <!--
 		En esta sección se define la inclusión de las plantillas de utilerías para colapsar espacios
 	-->
-  <xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/2/cadenaoriginal_2_0/utilerias.xslt"/>
+  <xsl:include href="dist/xslt/cfd/2/cadenaoriginal_2_0/utilerias.xslt"/>
   <!--
 		En esta sección se define la inclusión de las demás plantillas de transformación para
 		la generación de las cadenas originales de los complementos fiscales
 	-->
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/donat/donat11.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/divisas/divisas.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/implocal/implocal.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/leyendasFiscales/leyendasFisc.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/pfic/pfic.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/TuristaPasajeroExtranjero/TuristaPasajeroExtranjero.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/nomina/nomina12.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/cfdiregistrofiscal/cfdiregistrofiscal.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/pagoenespecie/pagoenespecie.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/aerolineas/aerolineas.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/valesdedespensa/valesdedespensa.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/notariospublicos/notariospublicos.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/vehiculousado/vehiculousado.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/servicioparcialconstruccion/servicioparcialconstruccion.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/renovacionysustitucionvehiculos/renovacionysustitucionvehiculos.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/certificadodestruccion/certificadodedestruccion.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/arteantiguedades/obrasarteantiguedades.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/ComercioExterior11/ComercioExterior11.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/ComercioExterior20/ComercioExterior20.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/ine/ine11.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/iedu/iedu.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/ventavehiculos/ventavehiculos11.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/detallista/detallista.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/EstadoDeCuentaCombustible/ecc12.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/consumodecombustibles/consumodeCombustibles11.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/GastosHidrocarburos10/GastosHidrocarburos10.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/IngresosHidrocarburos10/IngresosHidrocarburos.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/CartaPorte/CartaPorte20.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/Pagos/Pagos20.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/CartaPorte/CartaPorte30.xslt"/>
-	<xsl:include href="node_modules/validadorcfdi/dist/xslt/cfd/CartaPorte/CartaPorte31.xslt"/>
+	<xsl:include href="dist/xslt/cfd/donat/donat11.xslt"/>
+	<xsl:include href="dist/xslt/cfd/divisas/divisas.xslt"/>
+	<xsl:include href="dist/xslt/cfd/implocal/implocal.xslt"/>
+	<xsl:include href="dist/xslt/cfd/leyendasFiscales/leyendasFisc.xslt"/>
+	<xsl:include href="dist/xslt/cfd/pfic/pfic.xslt"/>
+	<xsl:include href="dist/xslt/cfd/TuristaPasajeroExtranjero/TuristaPasajeroExtranjero.xslt"/>
+	<xsl:include href="dist/xslt/cfd/nomina/nomina12.xslt"/>
+	<xsl:include href="dist/xslt/cfd/cfdiregistrofiscal/cfdiregistrofiscal.xslt"/>
+	<xsl:include href="dist/xslt/cfd/pagoenespecie/pagoenespecie.xslt"/>
+	<xsl:include href="dist/xslt/cfd/aerolineas/aerolineas.xslt"/>
+	<xsl:include href="dist/xslt/cfd/valesdedespensa/valesdedespensa.xslt"/>
+	<xsl:include href="dist/xslt/cfd/notariospublicos/notariospublicos.xslt"/>
+	<xsl:include href="dist/xslt/cfd/vehiculousado/vehiculousado.xslt"/>
+	<xsl:include href="dist/xslt/cfd/servicioparcialconstruccion/servicioparcialconstruccion.xslt"/>
+	<xsl:include href="dist/xslt/cfd/renovacionysustitucionvehiculos/renovacionysustitucionvehiculos.xslt"/>
+	<xsl:include href="dist/xslt/cfd/certificadodestruccion/certificadodedestruccion.xslt"/>
+	<xsl:include href="dist/xslt/cfd/arteantiguedades/obrasarteantiguedades.xslt"/>
+	<xsl:include href="dist/xslt/cfd/ComercioExterior11/ComercioExterior11.xslt"/>
+	<xsl:include href="dist/xslt/cfd/ComercioExterior20/ComercioExterior20.xslt"/>
+	<xsl:include href="dist/xslt/cfd/ine/ine11.xslt"/>
+	<xsl:include href="dist/xslt/cfd/iedu/iedu.xslt"/>
+	<xsl:include href="dist/xslt/cfd/ventavehiculos/ventavehiculos11.xslt"/>
+	<xsl:include href="dist/xslt/cfd/detallista/detallista.xslt"/>
+	<xsl:include href="dist/xslt/cfd/EstadoDeCuentaCombustible/ecc12.xslt"/>
+	<xsl:include href="dist/xslt/cfd/consumodecombustibles/consumodeCombustibles11.xslt"/>
+	<xsl:include href="dist/xslt/cfd/GastosHidrocarburos10/GastosHidrocarburos10.xslt"/>
+	<xsl:include href="dist/xslt/cfd/IngresosHidrocarburos10/IngresosHidrocarburos.xslt"/>
+	<xsl:include href="dist/xslt/cfd/CartaPorte/CartaPorte20.xslt"/>
+	<xsl:include href="dist/xslt/cfd/Pagos/Pagos20.xslt"/>
+	<xsl:include href="dist/xslt/cfd/CartaPorte/CartaPorte30.xslt"/>
+	<xsl:include href="dist/xslt/cfd/CartaPorte/CartaPorte31.xslt"/>
 
   <!-- Aquí iniciamos el procesamiento de la cadena original con su | inicial y el terminador || -->
   <xsl:template match="/">|<xsl:apply-templates select="/cfdi:Comprobante"/>||</xsl:template>
